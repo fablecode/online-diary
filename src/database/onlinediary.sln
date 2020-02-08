@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "onlinediary", "onlinediary\onlinediary.sqlproj", "{C2D32A29-B852-4381-AF92-28B4CD789E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D32A29-B852-4381-AF92-28B4CD789E4D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F527DF-9F56-4405-BF51-37C2BBDF5915}
+	EndGlobalSection
+EndGlobal
