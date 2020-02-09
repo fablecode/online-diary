@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using onlinediary.core.Models.Db;
 
-namespace onlinediary.infrastructure.DatabaseContext
+namespace onlinediary.infrastructure
 {
     public partial class onlinediaryContext : DbContext
     {
@@ -37,7 +39,9 @@ namespace onlinediary.infrastructure.DatabaseContext
 
                 entity.Property(e => e.LastName).HasMaxLength(50);
 
-                entity.Property(e => e.MobilePhone).HasMaxLength(50);
+                entity.Property(e => e.MobilePhone)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.PostalCode).HasMaxLength(50);
 
