@@ -1,6 +1,6 @@
 # 📓 Online Diary Web Application
 
-Welcome to the **Online Diary Web Application** project! This application is a microservices-based system built using .NET 7, Docker, and Docker Compose. It's designed to be a scalable and extensible platform where users can securely manage their personal diary entries.
+Welcome to the **Online Diary Web Application** project! This application is a microservices-based system built using .NET 8, Docker, and Docker Compose. It's designed to be a scalable and extensible platform where users can securely manage their personal diary entries.
 
 ## 🌟 Features
 
